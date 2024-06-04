@@ -1,0 +1,69 @@
+.App {
+    text-align: center;
+}
+
+
+/* .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: radial-gradient( circle, rgba(2, 0, 36, 1) 0%, rgba(30, 54, 59, 1) 0%, rgba(93, 93, 116, 1) 100%);
+}
+
+.container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.container>form {
+    width: 70%;
+    border: 1px solid #dfdfdf;
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.submitted {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-bottom: 3%;
+}
+
+input,
+select {
+    margin: 10px;
+}
+
+pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+}
+
+button {
+    width: 80px;
+    font-size: large;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(21, 179, 252);
+}
+
+p {
+    color: red;
+}
